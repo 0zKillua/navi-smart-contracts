@@ -1,0 +1,50 @@
+{
+  "repo_notes": [
+    {
+      "content": "The lending_core folder contains the main business logic and is the most critical component. Document this in detail first, including all workflows, state transitions, and interactions. The oracle folder is the second most important component. Other folders and test utilities are secondary.",
+      "author": "Developer"
+    }
+  ],
+  "pages": [
+    {
+      "title": "Lending Core Architecture",
+      "purpose": "High-level overview of the lending_core folder structure, main modules, and how components interact with each other"
+    },
+    {
+      "title": "Lending Core Workflows",
+      "purpose": "Document the complete workflows in lending_core including borrow flow, repay flow, liquidation flow, and collateral management. Show step-by-step execution paths and state transitions.",
+      "parent": "Lending Core Architecture"
+    },
+    {
+      "title": "Lending Core Data Structures",
+      "purpose": "Document the key data structures, storage patterns, and state management within lending_core modules",
+      "parent": "Lending Core Architecture"
+    },
+    {
+      "title": "Lending Core Functions",
+      "purpose": "Detailed documentation of critical functions in lending_core, their parameters, return values, and interaction patterns",
+      "parent": "Lending Core Architecture"
+    },
+    {
+      "title": "Oracle Integration",
+      "purpose": "Document the oracle folder structure, price feed mechanisms, and how oracle data is consumed by the lending protocol"
+    },
+    {
+      "title": "Oracle Price Updates",
+      "purpose": "Document how price feeds are updated, validated, and stored in the oracle system",
+      "parent": "Oracle Integration"
+    },
+    {
+      "title": "Math Utilities",
+      "purpose": "Brief overview of math helper functions and calculations used across the protocol"
+    },
+    {
+      "title": "General Utilities",
+      "purpose": "Brief overview of utility functions and helper modules in the utils folder"
+    },
+    {
+      "title":"Lending UI folder",
+      "purpose":"Overview of lending UI, how is it used and it's logics"
+    }
+  ]
+}
